@@ -1,0 +1,16 @@
+curl -i -k https://localhost:8443/api/
+
+curl -i -k --header "Content-Type: application/json" \
+--request POST   \
+--data '{"username":"fulano","password":"senhafulano"}'   \
+https://localhost:8443/login
+
+login inválido: 
+curl -i -k --header "Content-Type: application/json" \
+--request POST   \
+--data '{"username":"fulano","password":"blablabla"}'   \
+https://localhost:8443/login
+
+curl -i -k --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MDA4NzIzMSwianRpIjoiY2I2MzU5YWUtOTJiOS00NzdhLWFkM2ItMGRmOGZjNTAwZmNjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImZ1bGFubyIsIm5iZiI6MTY0MDA4NzIzMSwiZXhwIjoxNjQwMDg3MjkxfQ.aJQr7pfYkj7OioB8jaF-FsDCJoKqqMMjJLfEaLHF5uuxaPqcGBgYQNq0E1p_k8BXMX7IUIMqOtxVuyYuMl0N8tyJ9rVIEs6HT9uP0duqwsYE4podaMr_zK586PZKTn2UW0QA7jERwbGAb1Xv9L00GKmawYctVcjZWGKa4XF6JmQUuYkNGhqEV2wRkjd17ZxNs0B22JNGS40_Fl56_5KKv10a9kIGy5UKSuq0FosbrjVYGeCKdIYBVoWHtKm_UvyqD5cRcbCPoxdvGfS8PQLgGoVQAXtoIlB3bxQmLhCGJSYsF5CuSKVGDVJz9qL5ri9WANjWZD0vDuRIX7388w3VFy6BermFZ94wKYp7CgnIxgLYuo5QBmUyYVLOgiQ17O9WzFZvt_v4n-QuLp0PZJWfBWX-bs1_zinMNN0gTNi9YgQASRz22ImRwbLgVicqJqlMCz9swbt41IBPqkaAv9j0lmuvVzJXnDiPCzB3TNGXf5n2GIouI4X2Yc1Ua9ozrtii" \
+https://localhost:8443/api/
+

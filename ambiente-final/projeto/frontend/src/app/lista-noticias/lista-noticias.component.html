@@ -1,0 +1,15 @@
+<div *ngFor="let noticia of noticias">
+    <div>
+        <img style="vertical-align:middle" [src]="'assets/images/'+noticia.thumb">
+        <span class="titulo">
+            <a routerLink="/detalhes" routerLinkActive="active"
+                [state]="noticia">
+            {{ noticia.titulo }}
+            </a>
+            <br>
+            <span class="subtitulo">
+            {{ noticia.data | date : 'dd/MM/yyyy hh:mm:ss' }}, {{ noticia.resumo }}
+            </span>
+        </span>
+    </div>
+  </div>
