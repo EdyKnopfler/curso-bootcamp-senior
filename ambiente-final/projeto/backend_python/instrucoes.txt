@@ -1,0 +1,16 @@
+1. Crie um ambiente virtual: 
+    python3 -m venv .
+
+2. Ative o ambiente virtual: 
+    - MS Windows: \Scripts\activate.bat
+    - Linux: source bin/activate
+
+3. Rode o PIP para instalar as dependêncais: 
+    pip install -r requirements.txt
+
+4. Suba o servidor: 
+    python3 servidor.py 
+
+5. Use o cURL para enviar requests: 
+   - Raiz: curl http://localhost:8080/api
+

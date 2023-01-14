@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 100, 
+        "titulo" : "Atenção para o prazo de programação de férias(100)!",
+        "resumo" : "O prazo de programação de férias, para quem quer sair no próximo mês, termina dia 5 deste mês. ",
+        "thumb" : "thumb1.png",
+        "imagem" : "praia1.png",
+        "texto" : "Se você está pensando em tirar férias no próximo mês (Outubro) é importante ficar atento e solicitar suas férias até o dia 5. Procure o seu Supervisor ou entre no link: https://siscorp.xpto.rede/adm/ferias e preencha o formulário.",
+        "data" : "2021-09-02 10:10:05"
+    }
+    ,
+    {
+        "id" : 200, 
+        "titulo" : "O horário do refeitório mudou(200)",
+        "resumo" : "Desde Agosto o horário do refeitório mudou, procure saber o horário da sua unidade.",
+        "thumb" : "thumb2.png",
+        "imagem" : "imagem2.png",
+        "texto" : "O horário do refeitório mudou desde Agosto. Procure o seu Supervisor ou entre no link: https://siscorp.xpto.rede/adm/refeitorio.",
+        "data" : "2021-09-02 10:11:11"
+    }
+
+]
